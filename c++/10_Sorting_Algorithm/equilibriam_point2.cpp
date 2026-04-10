@@ -16,7 +16,7 @@ int main(){
         left_sum += arr[i];
     }
 
-    if(right_sum==left_sum){
+    if(right_sum!=left_sum){
         std::cout<<-1;
     }
 
