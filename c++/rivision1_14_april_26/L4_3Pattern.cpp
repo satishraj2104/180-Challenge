@@ -1,0 +1,11 @@
+#include<iostream>
+int main(){
+    int a = 1;
+    for(int i=1;i<=5;i++){
+        for(int j=1;j<=5;j++){
+            std::cout<<a++<<" ";
+        }
+        std::cout<<std::endl;
+    }
+    return 0;
+}
